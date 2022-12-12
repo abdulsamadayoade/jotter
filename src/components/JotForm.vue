@@ -49,7 +49,7 @@ const submitJot = () => {
 
       <div class="jot-form__buttons">
         <button class="jot-form__button jot-form__button--save">Save</button>
-        <button @click="clearFields" class="jot-form__button jot-form__button--cancel">Cancel</button>
+        <button type="button" @click="clearFields" class="jot-form__button jot-form__button--cancel">Cancel</button>
       </div>
     </form>
   </div>
