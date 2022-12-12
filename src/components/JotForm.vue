@@ -1,11 +1,14 @@
 <script setup>
 import { reactive } from 'vue';
+import { useJotStore } from '../stores/jotStore';
 
 const state = reactive({
   title: '',
   content: '',
   isFavorite: false,
 });
+
+const store = useJotStore();
 
 // clear fields when the user clicks cancel
 const clearFields = () => {
@@ -16,7 +19,7 @@ const clearFields = () => {
 
 // submit jot and clear fields after user submits the form
 const submitJot = () => {
-  console.log(state);
+  store.addJot(state);
   clearFields();
 };
 </script>
