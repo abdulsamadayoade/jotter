@@ -164,6 +164,12 @@ body {
   width: 100%;
 }
 
+.jot-form__label input,
+.jot-form__label textarea {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+}
+
 .jot-form__label input:focus,
 .jot-form__label textarea:focus {
   outline: none;
@@ -189,6 +195,7 @@ body {
   margin-top: 10px;
   font-size: 13px;
   color: var(--c-1);
+  cursor: pointer;
 }
 
 .jot-form__setFavorite div {
