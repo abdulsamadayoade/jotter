@@ -9,6 +9,7 @@ const state = reactive({
 });
 
 const store = useJotStore();
+const { addJot } = store;
 
 // clear fields when the user clicks cancel
 const clearFields = () => {
@@ -19,7 +20,7 @@ const clearFields = () => {
 
 // submit jot and clear fields after user submits the form
 const submitJot = () => {
-  store.addJot(state);
+  addJot(state);
   clearFields();
 };
 </script>
