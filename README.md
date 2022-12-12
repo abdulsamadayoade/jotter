@@ -1,8 +1,10 @@
 # jotter-app
+A jotter app built with Vue 3, Vite, Vue Router, Pinia and Vanilla CSS
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
-<img src="https://raw.githubusercontent.com/vitejs/vite/master/assets/logo.svg?sanitize=true" alt="Vite Logo" width="400">
+<img src="https://github.com/abdulsamadayoade/jotter/blob/main/src/assets/screenshot.png" alt="">
 
 ## Recommended IDE Setup
 
