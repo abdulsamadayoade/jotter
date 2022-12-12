@@ -19,5 +19,6 @@ const { jots } = storeToRefs(store);
       :deleteJot="deleteJot"
       :setFavoriteJot="setFavoriteJot"
     />
+    <p v-if="!jots.length">You currently don't have any jot, jot something now!</p>
   </div>
 </template>
